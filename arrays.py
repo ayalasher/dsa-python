@@ -17,3 +17,16 @@ print(ages)
 # center of the array
 ages.insert(3,76)
 print(ages)
+
+
+# Traversing an array
+for x in ages :
+    print(x)
+
+
+def traversesrray(array):
+    for elements in array:
+        print(elements)
+
+
+traversesrray(ages)
