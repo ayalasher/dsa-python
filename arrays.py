@@ -5,7 +5,7 @@ ages = array("i",[2,3,4,6,7])
 
 print(ages)
 
-# end of the array
+# end of the array add an item
 ages.append(55)
 print(ages)
 
