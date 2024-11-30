@@ -49,9 +49,21 @@ class Singlylinkedlist:
         if self.head is None:
             print("The linked list is empty")
             return
+        
+        # Deleting the head node
+        if self.head.data == value:
+            current = self.head
+            self.head = current.next
+            return
+        
+
         # Declare variabes to hold the previos and current nodes..
         previous = None
-        current = self
+        current = self.head
+
+        
+
+
         # Traverse the linked list as we seacrh for the value
         while current:
             if current.data == value:
@@ -95,6 +107,10 @@ print(mysinglylinkedlist)
 
 # printing contents of the list...
 mysinglylinkedlist.printlist()
+# testing the delete....
+mysinglylinkedlist.deleteinbetween("C")
+mysinglylinkedlist.printlist()
+
 
 
 # Create a node by making an object of the node class
