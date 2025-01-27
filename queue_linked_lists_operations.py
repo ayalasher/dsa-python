@@ -8,7 +8,7 @@ class queue:
         self.front = None
         self.rear = None
 
-        # Checking if the queue ie empty
+        # Checking if the queue is empty
     def isEmpty(self):
         return self.front is None
     
