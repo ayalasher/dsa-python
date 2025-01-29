@@ -5,6 +5,7 @@ print("Working with linked lists")
 # creating the node class
 class Node:
     # Initilisation funtion(a constructor function)
+    # constructor funtion.
     def __init__(self,data):
         self.data = data
         self.next = None
